@@ -1,168 +1,167 @@
 {
   "name": "𝑶𝑻𝑻𝑶-𝑩𝑶𝑻-𝑴𝑫",
-  "description": "𝑶𝑻𝑻𝑶-𝑩𝑶𝑻-𝑴𝑫 Whatsapp bot © ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ ᴄᴏᴅᴇʀ · · ·",
+  "description": "𝑶𝑻𝑻𝑶-𝑩𝑶𝑻-𝑴𝑫 بوت واتساب © تم الإنشاء بواسطة سديشا كودر · · ·",
   "logo": "https://i.ibb.co/YZFg7Pq/IMG-20241127-WA0058.jpg",
-  "keywords": ["bot"],
+  "keywords": ["بوت"],
   "success_url": "/",
 
-    "stack": "container",
+  "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
+      "description": "ضع معرف الجلسة هنا.",
       "required": true,
       "value": ""
     },  
     
     "OWNER_NUMBER": {
-      "description": "Set your owner number",
+      "description": "حدد رقم مالك البوت",
       "required": true,
       "value": "249126083647"
     },
 
     "DEV": {
-      "description": "Bot Developer Numeber",
+      "description": "رقم مطور البوت",
       "required": true,
       "value": "249126083647"
     },
     
     "PREFIX": {
-      "description": "Set bot prefix(#,$,-!,?)",
+      "description": "حدد بادئة أوامر البوت (#,$,-!,?)",
       "required": true,
       "value": "."
     },
     
     "MODE": {
-      "description": "select your bot work type public-private-inbox-group.",
+      "description": "حدد نوع تشغيل البوت: عام - خاص - خاصية الرسائل - المجموعات.",
       "required": true,
       "value": "public"
     }, 
 
     "AUTO_VOICE": {
-      "description": "Make it true if you want bot auto voice.",
+      "description": "اجعلها true إذا كنت تريد البوت يرسل صوت تلقائيًا.",
       "required": true,
       "value": "true"
     },  
     
-      "AUTO_REPLY": {
-      "description": "Make it true if you want bot auto reply.",
+    "AUTO_REPLY": {
+      "description": "اجعلها true إذا كنت تريد البوت يرد تلقائيًا.",
       "required": true,
       "value": "true"
     },  
 
     "AUTO_READ_STATUS": {
-      "description": "Make it true if you want bot auto auto_read_status.",
+      "description": "اجعلها true إذا كنت تريد البوت يقرأ الحالات تلقائيًا.",
       "required": true,
       "value": "true"
     }, 
     
     "AUTO_STATUS_REPLY": {
-      "description": "Statues reply",
+      "description": "الرد على الحالات",
       "required": true,
       "value": "false"
     },
     
     "STATUS_REPLY_MSG": {
-      "description": "Statues reply msg",
+      "description": "رسالة الرد على الحالة",
       "required": true,
-      "value": "*_`AUTO STATUS JUST NOW SEEN BY LARA MD`_*"
+      "value": "*_`تمت مشاهدة الحالة الآن بواسطة OTTO MD`_*"
     },
     
     "AUTO_STATUS_REACT": {
-      "description": "Make it tru status auto react to any emojis",
+      "description": "اجعلها true ليتفاعل البوت مع الإيموجيات في الحالات تلقائيًا",
       "required": true,
       "value": "true"
     },
     
     "FAKE_RECORDING": {
-      "description": "Make it true if you want bot fake record.",
+      "description": "اجعلها true إذا كنت تريد البوت يظهر أنه يسجل وهميًا.",
       "required": true,
       "value": "true"
     },
     
     "AUTO_TYPING": {
-      "description": "Make it true if you want bot auto typing",
+      "description": "اجعلها true إذا كنت تريد البوت يظهر أنه يكتب تلقائيًا.",
       "required": true,
       "value": "false"
     },
 
     "AUTO_REACT": {
-      "description": "Make it true if you want bot AutoReact.",
+      "description": "اجعلها true إذا كنت تريد البوت يتفاعل تلقائيًا.",
       "required": true,
       "value": "false"
     },
     
-      "CUSTOM_REACT": {
-      "description": "Make it true if you want bot custome react.",
+    "CUSTOM_REACT": {
+      "description": "اجعلها true إذا كنت تريد تفاعلات مخصصة.",
       "required": true,
       "value": "true"
     },
     
-      "CUSTOM_REACT_EMOJIS": {
-      "description": "Custome react emojis.",
+    "CUSTOM_REACT_EMOJIS": {
+      "description": "إيموجيات التفاعل المخصصة.",
       "required": true,
       "value": "😎,🫦,😋,❤️‍🩹,🙉,🧡,🥳,💚,🤩,🥰,😊,🌹,🤍"
     },
     
     "ANTI_LINK": {
-      "description": "Group link shear not allowed and kick out user",
+      "description": "مشاركة روابط المجموعات غير مسموح وسيتم طرد العضو.",
       "required": true,
       "value": "true"
     },
     
     "ANTI_BAD": {
-      "description": "Bad word not allowed",
+      "description": "الكلمات السيئة غير مسموحة.",
       "required": true,
       "value": "true"
     },
     
     "READ_MESSAGE": {
-      "description": "Auto read new messages",
+      "description": "قراءة الرسائل الجديدة تلقائيًا.",
       "required": true,
       "value": "false"
     },
     
     "ALWAYS_ONLINE": {
-      "description": "Make it true if show you are always online it false if show your last seen",
+      "description": "اجعلها true إذا كنت تريد ظهورك دائمًا متصل، false لإظهار آخر ظهور.",
       "required": true,
       "value": "false"
     },
     
     "ANTI_DELETE": {
-      "description": "Delete massages show",
+      "description": "عرض الرسائل المحذوفة.",
       "required": true,
       "value": "true"
     },
     
     "INBOX_BLOCK": {
-      "description": "Inbox Auto block",
+      "description": "حظر تلقائي للرسائل الخاصة.",
       "required": true,
       "value": "false"
     },
     
-     "WELCOME": {
-      "description": "Set Group welcome massage",
+    "WELCOME": {
+      "description": "تفعيل رسالة الترحيب في المجموعات.",
       "required": true,
       "value": "true"
     },
     
-     "GOODBYE": {
-      "description": "Set Group goodbye massage",
+    "GOODBYE": {
+      "description": "تفعيل رسالة وداع عند خروج عضو.",
       "required": true,
       "value": "true"
     },
     
-     "ADMIN_EVENTS": {
-      "description": "Set Group admin admin events",
+    "ADMIN_EVENTS": {
+      "description": "تفعيل إشعارات أحداث المشرفين في المجموعة.",
       "required": true,
       "value": "true"
     }
+  },
 
-},
-
-     "buildpacks": [
-        {
-            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-        }
-     ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
   "stack": "heroku-24"
-}
+    }
